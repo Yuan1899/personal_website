@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "I create everything with knowledge.",
     email: "yuan.feng@unitn.it",
     linkedin: "Yuan Feng",
-    github: "Yuan Feng",
+    github: "Yuan",
     instagram: "",
   },
   projects: [
@@ -20,6 +20,7 @@ const CONFIG = {
   blog: {
     title: "yuan-log",
     description: "welcome to yuan-log!",
+    theme: "auto",
   },
 
   // CONFIG configration (required)
@@ -55,7 +56,8 @@ const CONFIG = {
   utterances: {
     enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      // repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: "morethanmin/morethan-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
