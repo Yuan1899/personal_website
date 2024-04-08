@@ -1,5 +1,5 @@
 import Feed from "src/routes/Feed"
-import { CONFIG } from "../../site.config"
+import { CONFIG } from "../../site.config.template"
 import { NextPageWithLayout } from "../types"
 import { getPosts } from "../apis"
 import MetaConfig from "src/components/MetaConfig"
